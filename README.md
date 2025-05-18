@@ -4,7 +4,7 @@ Patch to x4: Foundation XRSGE mod by Realspace to decrease difficulty (a bit)
 ## What it does ?
 Patch XRSGE to decrease the size of disprution zone, remove hull damage and other stuff, this to prevent AI beign stuck somewhere or hours to travel to point A to B.
 
-Load these repo files after XRSGE.
+Load these repo files after XRSGE https://www.nexusmods.com/x4foundations/mods/1140
 
 Thank Realspace / Eucharion for his work which is amazing !
 
