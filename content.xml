@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="softxrsge"
+name="Soft XRSGE"
+description="Soften XRSGE 8.2.9d Disruptions"
+author="Laryakan"
+version="100"
+date="2025-05-18"
+save="false"
+enabled="1" >
+<dependency id="xrsge" optional="false" name="THE EXPANSE"></dependency>
+</content>

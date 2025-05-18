@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft XRSGE patch by Laryakan, May 2025 -->
+<diff>
+	<!-- reduce max sphere size to 500km -->
+	<replace sel="//regions/region[@name='zone1500km_disable_travel_region']/boundary[@class='sphere']/size/@r">500000</replace>
+	<replace sel="//regions/region[@name='zone3000km_disable_travel_region']/boundary[@class='sphere']/size/@r">500000</replace>
+</diff>

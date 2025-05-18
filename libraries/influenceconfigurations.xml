@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Soft XRSGE patch by Laryakan, May 2025 -->
+<diff>
+	<!-- Planet ATMOSPHERE -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='planet_atmo_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='planet_atmo_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="150" duration="1"/>
+		</influence>
+	</add>
+	
+	<!-- Moon ATMOSPHERE - NO REVELANT ATM, there is no hull damage in 8.2.9d -->
+	<!-- <remove sel="/influencelistconfigurations/influencelist[@id='planet_atmo_disrupt']/influences/influence[@type='hullshielddamage']" /> -->
+	<!-- <add sel="/influencelistconfigurations/influencelist[@id='planet_atmo_disrupt']/influences" > -->
+		<!-- <influence type="shielddamage"> -->
+			<!-- <profile type="continuous" startvalue="150" duration="1"/> -->
+		<!-- </influence> -->
+	<!-- </add> -->
+	
+	<!-- Gas Giant ATMOSPHERE -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='gasgiant_atmo_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='gasgiant_atmo_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="350" duration="1"/>
+		</influence>
+	</add>
+	
+	<!-- Sun ATMOSPHERE - Dont touch this one, Sun HURTS -->
+	<!-- <remove sel="/influencelistconfigurations/influencelist[@id='sun_atmo_disrupt']/influences/influence[@type='hullshielddamage']" /> -->
+	<!-- <add sel="/influencelistconfigurations/influencelist[@id='sun_atmo_disrupt']/influences" > -->
+		<!-- <influence type="shielddamage"> -->
+			<!-- <profile type="continuous" startvalue="750" duration="1"/> -->
+		<!-- </influence> -->
+	<!-- </add> -->
+	
+	<!-- Big asteroid  -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='bigasteroid_collision_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='bigasteroid_collision_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="7500" duration="1"/>
+		</influence>
+	</add>
+	
+	<!-- Medium Nebulae - NO REVELANT ATM, there is no hull damage in 8.2.9d -->
+	<!-- <remove sel="/influencelistconfigurations/influencelist[@id='neb_mediumshield_disrupt']/influences/influence[@type='hullshielddamage']" /> -->
+	<!-- <add sel="/influencelistconfigurations/influencelist[@id='neb_mediumshield_disrupt']/influences" > -->
+		<!-- <influence type="shielddamage"> -->
+			<!-- <profile type="continuous" startvalue="125" duration="1"/> -->
+		<!-- </influence> -->
+	<!-- </add> -->
+	
+	<!-- Light Nebulae  -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='neb_light_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='neb_light_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="25" duration="1"/>
+		</influence>
+	</add>
+	
+	<!-- Medium Nebulae2  -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='neb_medium_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='neb_medium_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="50" duration="1"/>
+		</influence>
+	</add>
+	
+	<!-- high Nebulae  -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='neb_high_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='neb_high_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="75" duration="1"/>
+		</influence>
+	</add>
+	
+	<!-- highest? Nebulae  -->
+	<remove sel="/influencelistconfigurations/influencelist[@id='neb_highest_disrupt']/influences/influence[@type='hullshielddamage']" />
+	<add sel="/influencelistconfigurations/influencelist[@id='neb_highest_disrupt']/influences" >
+		<influence type="shielddamage">
+			<profile type="continuous" startvalue="125" duration="1"/>
+		</influence>
+	</add>
+</diff>
